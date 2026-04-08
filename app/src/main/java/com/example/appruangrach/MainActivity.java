@@ -49,12 +49,13 @@ public class MainActivity extends AppCompatActivity {
             if (x == 3) {
                 break; // Get me out of here
             }
-            String mess = joinThese("Method ", "are ", "cool");
-            Log.i("message=", mess);
 
-            float area = getAreaCircle(5f);
-            Log.i("area=", mess + area);
         }
+        String mess = joinThese("Method ", "are ", "cool");
+        Log.i("message=", mess);
+
+        float area = getAreaCircle(5f);
+        Log.i("area=", mess + area);
     }
 
     String joinThese(String a, String b, String c) {
